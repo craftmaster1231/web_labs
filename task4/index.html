@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Task 4</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+	<body>
+		<div class="main-form">
+			<h1>Full name</h1>
+			<div class="row">
+				<input placeholder="First Name" type="text" pattern="^[a-zA-Z]+$">
+				<input placeholder="Last Name" type="text">
+			</div>
+			<h1>Address</h1>
+			<div class="row">
+				<input placeholder="Street Address" type="text">
+			</div>
+			<div class="row">
+				<input placeholder="City" type="text">
+				<input placeholder="State" type="text">
+				<input placeholder="ZIP code" type="text">
+			</div>
+
+			<h1>Contact information</h1>
+			<div class="row">
+				<input placeholder="Email*" type="text">
+				<input placeholder="Phone" type="tel" pattern="[+]{0,1}[0-9]*">
+			</div>
+			<h1>Questions/Comments</h1>
+			<textarea placeholder="Message*"></textarea>
+			<div class="row spam">
+				<input type="checkbox" id="spam"> <label for="spam">Update me on deals and special offers via email.</label>
+			</div>
+			<input type="button" class="submit" value="Submit">
+		</div>
+	</body>
+</html>
