@@ -1,6 +1,10 @@
 #!/bin/bash
 
+export WD="$(pwd)" 
 
-sudo nginx  -c "$(pwd)/nginx_config.txt"
+
+envsubst < dynamic_nginx_config.txt  > nginx_config.txt
+
+sudo nginx  -c "${WD}/nginx_config.txt"
 
 

@@ -1,0 +1,12 @@
+include sites-enabled/default;
+
+events {} 
+
+http { 
+	root $WD; 
+	server { 
+		location / { 
+			root data/www; 
+	 	} 
+	} 
+}
