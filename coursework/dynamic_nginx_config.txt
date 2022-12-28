@@ -1,4 +1,3 @@
-include sites-enabled/default;
 
 events {} 
 
