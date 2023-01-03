@@ -1,0 +1,34 @@
+.main {
+	display:flex;
+	flex-direction:column;
+	height:100%;
+	width:100%;
+}
+
+.header {
+	display:flex;
+	background-color:green;
+	width:100%;
+	height:15%;
+}
+
+.middle {
+	display:flex;
+	height:100%;
+	width:100%;
+
+}
+.first {
+	display:flex;
+	flex:1;
+	background-color:#87ffe4;
+}
+
+.second {
+	display:flex;
+	flex: 4;
+	background-color:#aaaabd;
+	
+}
+
+
